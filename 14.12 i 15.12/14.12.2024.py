@@ -449,19 +449,19 @@
 
 # zad. 7
 
-def grupuj_wedlug_typow(*args):
+# def grupuj_wedlug_typow(*args):
  
-    slownik = {}
+#     slownik = {}
  
-    for i in args:
-        typ = str(type(i)).split("'")[1]
-        if typ not in slownik.keys():
-            slownik[typ] = []
+#     for i in args:
+#         typ = str(type(i)).split("'")[1]
+#         if typ not in slownik.keys():
+#             slownik[typ] = []
        
-        slownik[typ].append(i)
+#         slownik[typ].append(i)
  
-    return slownik
+#     return slownik
  
-wynik = grupuj_wedlug_typow(1, 'tekst', [1,2], {"klucz": "wartosc"}, {1, 2, 3}, 3.14)
+# wynik = grupuj_wedlug_typow(1, 'tekst', [1,2], {"klucz": "wartosc"}, {1, 2, 3}, 3.14)
 
-print(wynik)
+# print(wynik)
