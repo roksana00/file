@@ -43,21 +43,22 @@
 # my_list = combined
 # print(my_list)
 
-# zadanie 1.2.1
+# # zadanie 1.2.1 (nieskończone, z błedem)
 
-first_name = "John"
-last_name = "Doe"
-favorite_hobby = "Python"
-sports_hobby = "gym"
-age = 82
+# first_name = "John"
+# last_name = "Doe"
+# favorite_hobby = "Python"
+# sports_hobby = "gym"
+# age = 82
 
-name = {"John", "Doe"}
-age = {"age": 82}
-hobbies = {"favorite_hobby": "Python", "sports_hobby": "gym"}
+# name = {"John", "Doe"}
+# age = {"age": 82}
+# hobbies = {"favorite_hobby": "Python", "sports_hobby": "gym"}
 
-my_dict = {}
-my_dict.update(name)
-my_dict.update(age)
-my_dict.update(hobbies)
+# my_dict = {}
+# my_dict.update(name)
+# my_dict.update(age)
+# my_dict.update(hobbies)
 
-print(my_dict)
+# print(my_dict)
+
